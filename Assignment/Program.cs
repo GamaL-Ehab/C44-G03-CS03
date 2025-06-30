@@ -55,6 +55,13 @@
             //2. (Operations on Decimal Number) Will Thorw an Error.
             #endregion
 
+            #region Q4
+            ////Q4
+
+            //string fullString = "Hello World";
+            //string subString = fullString.Substring(0, 5);
+            //Console.WriteLine(subString);
+            #endregion
 
         }
     }
