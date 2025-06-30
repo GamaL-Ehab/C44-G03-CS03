@@ -89,6 +89,31 @@ namespace Demo
             //Console.WriteLine("Age: " + age);
             //Console.WriteLine("Salary: " + salary);
             #endregion
+
+            #region TryParse
+            //string number1 = "100";
+            //int X1 = int.Parse(number1);
+            //Console.WriteLine(number1);
+
+            //string number2 = "Ahmed";
+            //bool isParsed = int.TryParse(number2, out int X2);
+            //Console.WriteLine(X2);
+
+            //Console.WriteLine("Please Enter Your Name: ");
+            //string? name = Console.ReadLine();
+
+            //Console.WriteLine("Please Enter Your Age: ");
+            //int.TryParse(Console.ReadLine(), out int age);
+
+            //Console.WriteLine("Please Enter Your Salary: ");
+            //decimal.TryParse(Console.ReadLine(), out decimal salary); 
+
+            //Console.Clear();
+            //Console.WriteLine("========== Employee Data ==========");
+            //Console.WriteLine("Name: " + name);
+            //Console.WriteLine("Age: " + age);
+            //Console.WriteLine("Salary: " + salary);
+            #endregion
         }
     }
 }
