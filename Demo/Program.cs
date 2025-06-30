@@ -7,7 +7,7 @@ namespace Demo
         static void Main(string[] args)
         {
             #region Fractions & Discards
-            //Fractions===========================================
+            ////Fractions===========================================
             //float X = 3.55859468874548f;
             //double Y = 3.5;
             //decimal Z = 3.5m;
@@ -15,8 +15,8 @@ namespace Demo
 
             //var W = 3.5f;
 
-            
-            //Discards============================================
+
+            ////Discards============================================
             //long L = 351_572_964_875;
             //Console.WriteLine($"{L:c}");
 
@@ -24,7 +24,37 @@ namespace Demo
             //Console.WriteLine(L.ToString("C", cultureInfo));
             #endregion
 
+            #region Implicit & Explicit Casting
+            ////Implicit Casting===================================
+            //int X = 1000; ////4 Bytes
+            //long Y = X;   ////8 Bytes 
+            //Console.WriteLine(Y);
 
+            ////Explicit Casting=Unsafe Casting====================
+            //long Z = 1000;
+            //int W = (int)Z;
+            //Console.WriteLine(W);
+
+            ////Overflow - Data Loss===============================
+            //checked
+            //{
+            //    long A = 2345651231564;
+            //    int B = (int)A;
+            //    Console.WriteLine(B);
+            //}
+
+            ////Handling Overflow
+            //long X = 85468348974354896;
+
+            //if (X > int.MaxValue || X < int.MinValue)
+            //    Console.WriteLine("Exception");
+            //else 
+            //{ 
+            //    int Y = (int)X;
+            //    Console.WriteLine(Y);
+            //}
+                
+            #endregion
         }
     }
 }
