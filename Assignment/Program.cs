@@ -154,6 +154,22 @@
             //Console.WriteLine(result);
 
             #endregion
+
+            #region Q11
+            ////Q11
+
+            //Console.WriteLine("Enter Todays Day: ");
+            //string day = Console.ReadLine();
+            //Console.WriteLine("Enter Current Month: ");
+            //string month = Console.ReadLine();
+            //Console.WriteLine("Enter Current Year: ");
+            //string year = Console.ReadLine();
+
+            //Console.WriteLine($"Today's date: {day} , {month} , {year}");
+            //Console.WriteLine($"Today's date: {day} / {month} / {year}");
+            //Console.WriteLine($"Today's date: {day} - {month} - {year}");
+            #endregion
+
         }
     }
 }
