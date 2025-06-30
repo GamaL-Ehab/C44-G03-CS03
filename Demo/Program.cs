@@ -114,6 +114,32 @@ namespace Demo
             //Console.WriteLine("Age: " + age);
             //Console.WriteLine("Salary: " + salary);
             #endregion
+
+            #region Operators
+            // Unary Operators
+            //1. ++
+            //2. --
+            //Prefix(++X, --X) [Increment then Print]
+            //Postfix(X++, X--)[Print then increment]
+
+            //Binary | Arthemitic Operators
+            //[+ , - , * , / , %]
+
+            //Assignment Operators
+            //[= , += , -= , *= , /= , %=]
+
+            //Relational Operators
+            //[== , != , < , > , <= , >=]
+
+            //Logical Opertators
+            //[! , && , ||]
+
+            //Bitwise Opertors
+            //[& , | , ^ , ~ , << , >>]
+
+            //Ternary Operators
+            //[Conditional Operators (condition? true : false)]
+            #endregion
         }
     }
 }
