@@ -23,6 +23,8 @@ namespace Demo
             //var cultureInfo = new CultureInfo("ar-SA");
             //Console.WriteLine(L.ToString("C", cultureInfo));
             #endregion
+
+
         }
     }
 }
