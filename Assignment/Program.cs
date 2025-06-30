@@ -78,6 +78,24 @@
 
             #endregion
 
+            #region Q6
+            ////Q6
+            //Person person01 = new Person();
+            //person01.Name = "Ali";
+            //person01.Age = 30;
+
+            //Person person02 = person01;
+
+            //person02.Name = "Ahmed";
+            //person02.Age = 35;
+
+            //Console.WriteLine($"Person01 Name: {person01.Name}, Person01 Age: {person01.Age}");
+            //Console.WriteLine($"Person02 Name: {person02.Name}, Person02 Age: {person02.Age}");
+
+            //What Will Happen?
+            //When we modify person02 Name or Age, the change will reflect in person01, because they both point to the same object.
+
+            #endregion
         }
     }
 }
