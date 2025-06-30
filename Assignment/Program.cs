@@ -178,6 +178,16 @@
             ////Output: (06/14/2024) => (C)
 
             #endregion
+
+            #region Q13
+            ////Q13
+            //int d;
+            //d = Convert.ToInt32(!(30 < 20));
+
+            //Console.WriteLine(d);
+
+            ////Answer: A Value 1 will be assigned to d => (F)
+            #endregion
         }
     }
 }
