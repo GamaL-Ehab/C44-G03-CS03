@@ -188,6 +188,14 @@
 
             ////Answer: A Value 1 will be assigned to d => (F)
             #endregion
+
+            #region Q14
+            ////Q14
+
+            //Console.WriteLine(13 / 2 + " " + 13 % 2);
+
+            ////Output: 6 1 => (D) 
+            #endregion
         }
     }
 }
