@@ -63,6 +63,21 @@
             //Console.WriteLine(subString);
             #endregion
 
+            #region Q5
+            ////Q5
+
+            //int X = 5;
+            //int Y = X;
+            //X = 10;
+
+            //Console.WriteLine(X);
+            //Console.WriteLine(Y);
+
+            //What Will Happen?
+            //Modifying one variable does not affect the other once assignment is done. 
+
+            #endregion
+
         }
     }
 }
