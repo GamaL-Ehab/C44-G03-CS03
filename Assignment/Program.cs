@@ -196,6 +196,20 @@
 
             ////Output: 6 1 => (D) 
             #endregion
+
+            #region Q15
+            ////Q15
+
+            //int num = 1, z = 5;
+
+
+            //if (!(num <= 0))
+            //    Console.WriteLine(++num + z++ + " " + ++z);
+            //else
+            //    Console.WriteLine(--num + z-- + " " + --z);
+
+            ////Otuput: 7 7 => (D)
+            #endregion
         }
     }
 }
