@@ -109,6 +109,25 @@
             //string fullName = $"{firstName} {secondName}";
             //Console.WriteLine(fullName);
             #endregion
+
+            #region Q8
+            ////Q8
+
+            //Console.WriteLine("===== Interest Calculator =====");
+            //Console.WriteLine("Enter the Principal amount: ");
+            //double.TryParse(Console.ReadLine(), out double principal);
+
+            //Console.WriteLine("Enter the Rate of interest: ");
+            //double.TryParse(Console.ReadLine(), out double rate);
+
+            //Console.WriteLine("Enter the Time: ");
+            //double.TryParse(Console.ReadLine(), out double time);
+
+            //double Interest = (principal * rate * time) / 100;
+
+            //Console.WriteLine($"Interest = {Interest}%");
+
+            #endregion
         }
     }
 }
