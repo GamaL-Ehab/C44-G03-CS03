@@ -140,6 +140,32 @@ namespace Demo
             //Ternary Operators
             //[Conditional Operators (condition? true : false)]
             #endregion
+
+            #region String Formatting
+            //// Equation : 10 + 5 = 15
+            //int X = 10, Y = 5, result;
+            //result = X + Y;
+            //string message;
+
+            ////1. String Concatenations
+            //message = "Equation : " + X + " + " + Y + " = " + result;
+            //Console.WriteLine(message);
+
+            ////2. Composite Formatting
+            //Console.WriteLine("Equation : {0} + {1} = {2}", X, Y, result);
+
+            ////3. String.Format
+            //message = string.Format("Equation : {0} + {1} = {2}", X, Y, result);
+            //Console.WriteLine(message);
+
+            ////4. String Interpolation
+            //message = $"Equation : {X} + {Y} = {result}";
+            //Console.WriteLine(message); 
+
+            ////5. Path
+            //string path = @"C:\Users\gamal\source\repos\C44-G03-CS03\Demo\Program.cs";
+            //Console.WriteLine(path);
+            #endregion
         }
     }
 }
