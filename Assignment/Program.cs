@@ -96,6 +96,19 @@
             //When we modify person02 Name or Age, the change will reflect in person01, because they both point to the same object.
 
             #endregion
+
+            #region Q7
+            ////Q7
+
+            //Console.WriteLine("Enter Your First Name: ");
+            //string firstName = Console.ReadLine();
+
+            //Console.WriteLine("Enter Your Second Name: ");
+            //string secondName = Console.ReadLine();
+
+            //string fullName = $"{firstName} {secondName}";
+            //Console.WriteLine(fullName);
+            #endregion
         }
     }
 }
