@@ -142,6 +142,18 @@
             //float BMI = (weight)/(height * height);
             //Console.WriteLine($"Your Body Mass Index (BMI): {BMI}");
             #endregion
+
+            #region Q10
+            ////Q10
+            //Console.Write("Enter the temperature: ");
+            //float temperature = float.Parse(Console.ReadLine());
+
+            //string result = (temperature < 10) ? "Just Cold" : (temperature > 30) ? "Just Hot" : "Just Good";
+
+
+            //Console.WriteLine(result);
+
+            #endregion
         }
     }
 }
