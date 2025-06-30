@@ -128,6 +128,20 @@
             //Console.WriteLine($"Interest = {Interest}%");
 
             #endregion
+
+            #region Q9
+            ////Q9
+
+            //Console.WriteLine("===== BMI Calculator =====");
+            //Console.WriteLine("Enter Your Weight: ");
+            //float.TryParse(Console.ReadLine(), out float weight);
+
+            //Console.WriteLine("Enter Your Height: ");
+            //float.TryParse(Console.ReadLine(), out float height);
+
+            //float BMI = (weight)/(height * height);
+            //Console.WriteLine($"Your Body Mass Index (BMI): {BMI}");
+            #endregion
         }
     }
 }
