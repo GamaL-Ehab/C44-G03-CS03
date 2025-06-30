@@ -166,6 +166,94 @@ namespace Demo
             //string path = @"C:\Users\gamal\source\repos\C44-G03-CS03\Demo\Program.cs";
             //Console.WriteLine(path);
             #endregion
+
+            #region Conditional Statements
+            #region Example 1
+            //Console.WriteLine("Enter Month Number From The First Quarter: ");
+            //int.TryParse(Console.ReadLine(), out var value);
+
+            #region If - Else
+            //if (value == 1)
+            //    Console.WriteLine("January");
+            //else if (value == 2)
+            //    Console.WriteLine("February");
+            //else if (value == 3)
+            //    Console.WriteLine("March");
+            //else
+            //    Console.WriteLine("Invalid Month Number"); 
+            #endregion
+
+            #region Switch
+            //switch (value)
+            //{
+            //    case 1:
+            //        Console.WriteLine("January");
+            //        break;
+            //    case 2:
+            //        Console.WriteLine("February");
+            //        break;
+            //    case 3:
+            //        Console.WriteLine("March");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Invalid Month Number");
+            //        break;
+            //}
+            #endregion
+            #endregion
+
+            #region Example 2
+            //Console.WriteLine("Enter Your Age: ");
+            //int.TryParse(Console.ReadLine(), out int age);
+
+            #region If - Else
+            //if (age > 22)
+            //    Console.WriteLine("Student Age is Greater Than 22");
+            //else if (age < 22)
+            //    Console.WriteLine("Student Age is Less Than 22");
+            //else
+            //    Console.WriteLine("Student Age is 22");
+            #endregion
+
+            #region Switch
+            //switch (age)
+            //{
+            //    case > 22:
+            //        Console.WriteLine("Student Age is Greater Than 22");
+            //        break;
+            //    case < 22:
+            //        Console.WriteLine("Student Age is Less Than 22");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Student Age is 22");
+            //        break;
+            //}
+            #endregion
+            #endregion
+
+            #region Example 3
+            //Console.WriteLine("Enter Your Budget: ");
+            //int.TryParse(Console.ReadLine(), out var value);
+
+            //switch (value)
+            //{
+            //    case 1000:
+            //        Console.WriteLine("Option 1");
+            //        break;
+            //    case 2000:
+            //        //Console.WriteLine("Option 1");
+            //        Console.WriteLine("Option 2");
+            //        goto case 1000;
+            //        //break;
+            //    case 3000:
+            //        //Console.WriteLine("Option 1");
+            //        //Console.WriteLine("Option 2");
+            //        Console.WriteLine("Option 3");
+            //        goto case 2000;
+            //        //break;
+            //}
+            #endregion
+            #endregion
         }
     }
 }
