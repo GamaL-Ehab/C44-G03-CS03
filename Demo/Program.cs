@@ -72,6 +72,23 @@ namespace Demo
             //Console.WriteLine("Age: " + age);
             //Console.WriteLine("Salary: " + salary);
             #endregion
+
+            #region Parse
+            //Console.WriteLine("Please Enter Your Name: ");
+            //string? name = Console.ReadLine();
+
+            //Console.WriteLine("Please Enter Your Age: ");
+            //int age = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Please Enter Your Salary: ");
+            //decimal salary = decimal.Parse(Console.ReadLine());
+
+            //Console.Clear();
+            //Console.WriteLine("========== Employee Data ==========");
+            //Console.WriteLine("Name: " + name);
+            //Console.WriteLine("Age: " + age);
+            //Console.WriteLine("Salary: " + salary);
+            #endregion
         }
     }
 }
